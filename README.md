@@ -40,7 +40,7 @@ Facebook은 현재 React에 큰 관심을 가지고 있으며 Open Source의 가
 
 ## 개발환경
 
-1. node.js 설치 👉 **[[DownLoad](https://nodejs.org/ko/download/)]**
+1. [node.js 설치](https://nodejs.org/ko/download/)
 2. Visual Studio Code 설치
 
 ## 프로젝트 생성
