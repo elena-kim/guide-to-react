@@ -46,8 +46,9 @@ Another notable feature is the use of a virtual Document Object Model, or virtua
 
 ## 준비
 
-1. [node.js 설치](https://nodejs.org/ko/download/)
-2. Visual Studio Code 설치
+1. [node.js](https://nodejs.org/ko/download/)
+2. [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable) : `Yarn`은 조금 개선된 버전의 npm. [더 나은 속도, 더 나은 캐싱 시스템](https://www.keycdn.com/blog/npm-vs-yarn)
+3. 코드 에디터 (VSCode, Atom, WebStorm, Sublime 등..)
 
 <br>
 
