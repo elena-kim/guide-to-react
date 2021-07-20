@@ -1,9 +1,18 @@
 # the-easiest-react
 
-## Npm library
+## 설치
 
-- npx create-react-app <project name>
-- npm i react-router-dom
+1. node.js 설치
+2. Visual Studio Code 설치
+
+## 프로젝트 생성
+```npm
+npx create-react-app <project name>
+```
+
+```npm
+npm i react-router-dom
+```
 
 
 ## ClassName
