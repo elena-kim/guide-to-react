@@ -1,6 +1,6 @@
 # the-easiest-react
 
-## 처음 설치
+## 개발환경
 
 1. node.js 설치
 2. Visual Studio Code 설치
