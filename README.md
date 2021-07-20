@@ -14,6 +14,3 @@ npx create-react-app <project name>
 ```npm
 npm i react-router-dom
 ```
-
-
-## ClassName
