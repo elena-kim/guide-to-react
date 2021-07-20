@@ -10,6 +10,7 @@
 npx create-react-app <project name>
 ```
 
+라우터 규칙을 위한 npm 설치
 ```npm
 npm i react-router-dom
 ```
