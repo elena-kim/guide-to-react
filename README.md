@@ -5,12 +5,12 @@
 > _"We built React to solve one problem: building large applications with data that changes over time."_ 
 >> \- react manual
 
-### 타 프론트엔드 프레임워크와 비교
+#### 프론트엔드 프레임워크 간 비교
 - Angular
 - Vue
 - React
 
-### React는 왜 인기있지?  
+### _React가 인기있는 이유?_
 [참고..](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/)
 
 **다른 대안보다 덜 복잡함**  
@@ -25,6 +25,16 @@ React는 기존 프로젝트에 매우 쉽게 통합되도록 선택했습니다
 물론 페이스북의 지원을 받는 것은 프로젝트가 성공할 경우 이익을 얻을 것입니다.
 
 Facebook은 현재 React에 큰 관심을 가지고 있으며 Open Source의 가치를 보고 있으며 이는 자체 프로젝트에서 React를 사용하는 모든 개발자에게 큰 장점입니다.
+
+<br>
+
+### React 특징
+[참고](https://medium.com/react-native-seoul/react-%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%A5%BC-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90-01-react-js%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-ad8ba252ee28)
+
+✔️ React는 선언형(Declarative)이다.  
+✔️ React는 컴포넌트 기반으로 재사용성이 뛰어나다.  
+✔️ React는 Virtual DOM(가상돔)기반으로 가볍다.  
+✔️ React 컴포넌트는 state와 props 을 가진다.
 
 <br>
 
