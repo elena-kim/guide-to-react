@@ -1,6 +1,6 @@
 # the-easiest-react
 
-## 설치
+## 처음 설치
 
 1. node.js 설치
 2. Visual Studio Code 설치
