@@ -67,3 +67,8 @@ npm i react-router-dom
 ```npm
 npm start
 ```
+
+<br>
+  
+## CRA 구조
+![image](https://user-images.githubusercontent.com/74305823/126419275-183bed58-1742-4214-9a22-0a630f537aeb.png)
