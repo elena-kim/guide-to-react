@@ -53,8 +53,8 @@ Another notable feature is the use of a virtual Document Object Model, or virtua
 
 <br>
 
-## 프로젝트 생성
-리엑트 프로젝트 만들기
+## npm 명령어
+리액트 프로젝트 생성
 ```npm
 npx create-react-app <project name>
 ```
@@ -64,11 +64,15 @@ npx create-react-app <project name>
 npm i react-router-dom
 ```
 
-리엑트 시작 명령어
+리액트 시작
 ```npm
 npm start
 ```
 
+리액트 종료: ctrl + C
+```npm
+>> 일괄 작업을 끝내시겠습니까 (Y/N)?
+```
 <br>
   
 ## CRA 구조
