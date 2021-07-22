@@ -69,7 +69,7 @@ npm i react-router-dom
 npm start
 ```
 
-리액트 종료: ctrl + C
+리액트 종료: (터미널) ctrl + C
 ```npm
 >> 일괄 작업을 끝내시겠습니까 (Y/N)?
 ```
