@@ -50,6 +50,7 @@ Another notable feature is the use of a virtual Document Object Model, or virtua
 2. 코드 에디터 (VSCode, Atom, WebStorm, Sublime 등..)
 
 (+. [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable) : `Yarn`은 조금 개선된 버전의 npm. [더 나은 속도, 더 나은 캐싱 시스템](https://www.keycdn.com/blog/npm-vs-yarn))
+
 <br>
 
 ## 프로젝트 생성
@@ -72,3 +73,16 @@ npm start
   
 ## CRA 구조
 ![image](https://user-images.githubusercontent.com/74305823/126419275-183bed58-1742-4214-9a22-0a630f537aeb.png)
+
+<br>
+
+## State와 Props
+TBD...
+
+<br>
+
+## Life Cycle
+![image](https://user-images.githubusercontent.com/74305823/126578543-9bee3b64-5ee3-417c-9e26-bdba1abfed03.png)
+[**react-lifecycle-methods-diagram**](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
+TBD...
