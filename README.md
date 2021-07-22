@@ -69,18 +69,9 @@ npm i react-router-dom
 npm start
 ```
 
-리액트 종료: 
-- Window `ctrl + C`
+리액트 종료:  `ctrl + C`
 ```npm
 >> 일괄 작업을 끝내시겠습니까 (Y/N)?
-```
-
-- Mac 
-```zsh
-lsof -i :포트번호
-# 위의 명령어로 해당 로컬호스트 포트의 PID를 찾습니다. (ex> lsof -i :8080)
-kill -9 PID번호
-# PID 번호로 해당 포트 서버를 종료합니다. (ex> kill -9 53665)
 ```
 <br>
   
