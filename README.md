@@ -49,6 +49,11 @@
       <td align="center"><a href="https://vuejs.org/"/>vuejs.org</td>
     </tr>
     <tr>
+      <td align="center">Google 개발 (2010년)</td>
+      <td align="center">전 Google 직원 Evan You 개발 (2014년)</td>
+      <td align="center">Facebook 개발 (2013년)</td>
+    </tr>
+    <tr>
       <td>Angular는 app 개발에 필요한 모든 것을 제공하기 때문에 러닝커브가 상당히 높습니다. TypeScript, MVC 외에도 Angular 내부의 동작 매커니즘과 제공 기술들도 알아야 합니다.</td>
       <td>Angular와 React보다 상대적으로 배우기 쉽고, 두 프레임워크로부터 Vue로 변경이 쉬운 편입니다. 하지만 Vue의 단순성과 유연성은 잘못된 코드를 허용하여 디버그 및 테스트를 어렵게 만들 수도 있습니다. </td>
       <td>가이드 문서가 상당히 잘 되어 있으며, 대부분의 문제도 Stackoverflow에 올라와 있습니다. Angular와 달리 완전한 프레임워크가 아니라서 추가 기능들에 대해 third-party 라이브러리가 필요합니다.</td>
