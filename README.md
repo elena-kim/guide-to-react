@@ -24,12 +24,11 @@
 ![](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)
 ![](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white)
 ![](https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white)
-![](https://img.shields.io/badge/-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![](https://img.shields.io/badge/-Uber-000000?style=for-the-badge&logo=Uber&logoColor=white)
 ![](https://img.shields.io/badge/-WhatsApp-25D366?style=for-the-badge&logo=WhatsApp&logoColor=white)
 ![](https://img.shields.io/badge/-Airbnb-FF5A5F?style=for-the-badge&logo=Airbnb&logoColor=white)
 ![](https://img.shields.io/badge/-Dropbox-0061FF?style=for-the-badge&logo=Dropbox&logoColor=white)
-
+![](https://img.shields.io/badge/-Yahoo!-6001D2?style=for-the-badge&logo=Yahoo!&logoColor=white)
 
 <br>
 
