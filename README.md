@@ -25,11 +25,36 @@
 ![](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white)
 ![](https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white)
 ![](https://img.shields.io/badge/-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![](https://img.shields.io/badge/-Uber-000000?style=for-the-badge&logo=Uber&logoColor=white)
 
-### 프론트엔드 프레임워크 간 비교
-- Angular
-- Vue
-- React
+<br>
+
+### JavaScript 프레임워크 비교
+
+<table>
+  <thead>
+    <th>Angular</th>
+    <th>Vue</th>
+    <th>React</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><img src="http://angular.kr/assets/images/logos/angular/angular.png" width="100"/></td>
+      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png" width="80"/></td>
+      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png" width="130"/></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://angular.io/"/>angular.io</td>
+      <td align="center"><a href="https://reactjs.org/"/>reactjs.org</td>
+      <td align="center"><a href="https://vuejs.org/"/>vuejs.org</td>
+    </tr>
+    <tr>
+      <td>Angular는 app 개발에 필요한 모든 것을 제공하기 때문에 러닝커브가 상당히 높습니다. TypeScript, MVC 외에도 Angular 내부의 동작 매커니즘과 제공 기술들도 알아야 합니다.</td>
+      <td>Angular와 React보다 상대적으로 배우기 쉽고, 두 프레임워크로부터 Vue로 변경이 쉬운 편입니다. 하지만 Vue의 단순성과 유연성은 잘못된 코드를 허용하여 디버그 및 테스트를 어렵게 만들 수도 있습니다. </td>
+      <td>가이드 문서가 상당히 잘 되어 있으며, 대부분의 문제도 Stackoverflow에 올라와 있습니다. Angular와 달리 완전한 프레임워크가 아니라서 추가 기능들에 대해 third-party 라이브러리가 필요합니다.</td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
@@ -67,7 +92,7 @@ Another notable feature is the use of a virtual Document Object Model, or virtua
 
 ***
 
-## 준비
+## 개발 준비
 
 1. [node.js](https://nodejs.org/ko/download/)
 2. 코드 에디터 (VSCode, Atom, WebStorm, Sublime 등..)
@@ -76,7 +101,7 @@ Another notable feature is the use of a virtual Document Object Model, or virtua
 
 <br>
 
-## npm 명령어
+## 명령어
 리액트 프로젝트 생성
 ```npm
 npx create-react-app <project name>
@@ -113,3 +138,12 @@ TBD...
 [**react-lifecycle-methods-diagram**](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 
 TBD...
+
+<br />
+
+### References
+
+:bookmark_tabs: [reactjs.org](https://reactjs.org/)  
+:bookmark_tabs: [The React Handbook](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/)  
+:bookmark_tabs: [Angular vs React vs Vue: Which Framework to Choose in 2021](https://www.codeinwp.com/blog/angular-vs-vue-vs-react/)
+ 
