@@ -12,21 +12,28 @@
 
 ***
 
+
 ## 개요
 **React**는 사용자 인터페이스를 만드는 데 사용되는 오픈소스 자바스크립트 라이브러리로, 페이스북에서 개발했습니다. 싱글 페이지 애플리케이션이나 모바일 애플리케이션 개발에 사용될 수 있으며 리액트를 사용하는 웹 사이트 및 프로그램은 아래와 같은 것들이 있습니다.
 
 ![](https://img.shields.io/badge/-Netflix-E50914?style=for-the-badge&logo=Netflix&logoColor=white)
 ![](https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white)
+![](https://img.shields.io/badge/-Reddit-FF4500?style=for-the-badge&logo=Reddit&logoColor=white)
+![](https://img.shields.io/badge/-Amazon&nbsp;AWS-232F3E?style=for-the-badge&logo=Amazon-AWS&logoColor=white)
+![](https://img.shields.io/badge/-Twitch-9146FF?style=for-the-badge&logo=Twitch&logoColor=white)
+![](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)
+![](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white)
+![](https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white)
 
 
-#### 프론트엔드 프레임워크 간 비교
+### 프론트엔드 프레임워크 간 비교
 - Angular
 - Vue
 - React
 
 <br>
 
-## React가 인기있는 이유?
+### React가 인기있는 이유?
 [참고](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/)
 
 **다른 대안보다 덜 복잡함**  
@@ -44,7 +51,7 @@ Facebook은 현재 React에 큰 관심을 가지고 있으며 Open Source의 가
 
 <br>
 
-## React 특징
+### React 특징
 [참고](https://medium.com/react-native-seoul/react-%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%A5%BC-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90-01-react-js%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-ad8ba252ee28)
 
 ### ✔️ React는 선언형(Declarative)이다.
@@ -57,6 +64,8 @@ Facebook은 현재 React에 큰 관심을 가지고 있으며 Open Source의 가
 Another notable feature is the use of a virtual Document Object Model, or virtual DOM. React creates an in-memory data-structure cache, computes the resulting differences, and then updates the browser's displayed DOM efficiently. This process is called **reconciliation**. This allows the programmer to write code as if the entire page is rendered on each change, while the React libraries only render subcomponents that actually change. This selective rendering provides a major **performance boost**. It saves the effort of recalculating the CSS style, layout for the page and rendering for the entire page.
 
 <br>
+
+***
 
 ## 준비
 
