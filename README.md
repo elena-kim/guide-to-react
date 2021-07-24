@@ -13,9 +13,9 @@
 <br>
 
 ## 개요
-**React** (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality. ([wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library)))  
-> _"We built React to solve one problem: building large applications with data that changes over time."_ 
->> \- react manual
+**React**는 사용자 인터페이스를 만드는 데 사용되는 오픈소스 자바스크립트 라이브러리로, 페이스북에서 개발했습니다. 싱글 페이지 애플리케이션이나 모바일 애플리케이션 개발에 사용될 수 있으며 리액트를 사용하는 웹 사이트 및 프로그램은 아래와 같은 것들이 있습니다.
+
+
 
 #### 프론트엔드 프레임워크 간 비교
 - Angular
