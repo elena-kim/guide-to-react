@@ -86,17 +86,17 @@ React는 페이스북 앱과 웹사이트, 그리고 인스타그램에서 많�
 ### React 특징
 
 #### # React는 선언형(Declarative)이다.
-리액트는 선언형 성격에 맞게 컴포넌트(원하는 결과, 뷰)를 얻기 위해 `<tag></tag>` jsx 문법을 통해 구현한다. 즉, jsx를 얻기 위한 알고리즘에 대한 구현을 하지 않는다. 
+React는 선언형 성격에 맞게 컴포넌트(원하는 결과, 뷰)를 얻기 위해 `<tag></tag>` jsx 문법을 통해 구현합니다. 즉, jsx를 얻기 위한 알고리즘에 대한 구현은 하지 않습니다. 
 
-이와 같은 선언형 특성은, 리액트를 사용할 때 화면 설계라는 초점에 맞춰서 개발할 수 있도록 해주므로, 다른 부분에 대한 고민을 최소화 해주어 높은 생산성을 보장할 수 있도록 해준다.
+이와 같은 선언형 특성은, 리액트를 사용할 때 화면 설계라는 초점에 맞춰서 개발할 수 있도록 해주므로, 다른 부분에 대한 고민을 최소화하고 높은 생산성을 보장할 수 있도록 해줍니다.
 
 #### # React는 컴포넌트 기반으로 재사용성이 뛰어나다.  
-Component는 독립적인 단위의 소프트웨어 모듈을 말한다. 즉 소프트웨어를 독립적인 하나의 부품으로 만드는 방법이다. 리액트는 웹에서 쓰는 각 요소들을 컴포넌트로 만들 수 있게 해 기존의 UI를 다른 화면에서 다시 쓰거나, 다른 프로젝트에서 다시 쓸 수 있도록 하는 장점(높은 재사용성)을 가진다.
+Component는 독립적인 단위의 소프트웨어 모듈을 말합니다. 즉 소프트웨어를 독립적인 하나의 부품으로 만드는 방법을 말하는데요. 리액트는 웹에서 쓰는 각 요소들을 컴포넌트로 만들 수 있게 해 기존의 UI를 다른 화면에서 다시 쓰거나, 다른 프로젝트에서 다시 쓸 수 있도록 하는 장점(높은 재사용성)을 가집니다.
 
-#### # React는 Virtual DOM(가상돔)기반으로 가볍다. 
-Another notable feature is the use of a virtual Document Object Model, or virtual DOM. React creates an in-memory data-structure cache, computes the resulting differences, and then updates the browser's displayed DOM efficiently. This process is called **reconciliation**. This allows the programmer to write code as if the entire page is rendered on each change, while the React libraries only render subcomponents that actually change. This selective rendering provides a major **performance boost**. It saves the effort of recalculating the CSS style, layout for the page and rendering for the entire page.
+#### # React는 Virtual DOM(가상돔) 기반으로 가볍다. 
+DOM(Document Object Model, 문서 객체 모델)은 HTML, XML 문서의 프로그래밍 인터페이스입니다. DOM 자체는 빠르지만 요소의 개수가 늘어날수록 CSS 재연산, 레이아웃 구성, 페이지 리페인트의 과정이 반복되면서 성능상 이슈가 발생하게 됩니다. Virtual DOM은 실제 DOM에 접근하여 조작하는 대신에, 이를 추상화시킨 자바스크립트 객체를 구성하여 사용합니다. 
 
-[참고](https://medium.com/react-native-seoul/react-%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%A5%BC-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90-01-react-js%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-ad8ba252ee28)
+React는 메모리 내에 데이터 구조 캐시를 만들고 결과 차이를 계산한 다음, 브라우저에 표시된 DOM을 효율적으로 업데이트하는데, 이 과정을 [재조정](https://ko.reactjs.org/docs/reconciliation.html)(Reconciliation)이라고 합니다. 이를 통해 React 라이브러리는 실제 변경되는 하위 구성요소만 렌더링하게 되고, 성능은 크게 향상됩니다.
 
 <br>
 
