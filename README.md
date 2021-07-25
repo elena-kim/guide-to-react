@@ -43,7 +43,7 @@
   <tbody>
     <tr>
       <td align="center"><img src="http://angular.kr/assets/images/logos/angular/angular.png" width="100"/></td>
-      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png" width="80"/></td>
+      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png" width="70"/></td>
       <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png" width="130"/></td>
     </tr>
     <tr>
@@ -67,20 +67,19 @@
 <br>
 
 ### React가 인기있는 이유?
-[참고](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/)
 
-**다른 대안보다 덜 복잡함**  
-React가 발표되었을 때 Ember.js와 Angular 1.x가 프레임워크로 가장 많이 선택되었습니다. 이 두 가지 모두 코드에 너무 많은 규칙을 부과하여 기존 앱을 이식하는 것이 전혀 편리하지 않았습니다.
+#### 다른 대안보다 덜 복잡하다!
+React가 발표되었을 당시, 프레임워크로는 `Ember.js`와 `Angualr 1.x`가 주를 이루었습니다. 하지만 이 두 가지 모두 코드에 너무 많은 규칙을 적용했기 때문에 기존 앱을 이식하는 것이 전혀 편리하지 않았습니다.
 
-React는 기존 프로젝트에 매우 쉽게 통합되도록 선택했습니다. 기존 코드베이스에 이를 도입하기 위해 Facebook에서 그렇게 해야 했기 때문입니다. 또한, 이 2개의 프레임워크는 테이블에 너무 많은 것을 가져온 반면 React는 전체 MVC 스택 대신 View 레이어만 구현하기로 선택했습니다.
+React는 기존 프로젝트에 매우 쉽게 통합되도록 했습니다. 이미 존재하는 코드베이스에 이를 도입하기 위해서는 Facebook에서 그렇게 해야만 했기 때문입니다. 또한, 두 프레임워크는 너무 많은 것을 테이블에 제공했지만, React는 전체 MVC 스택 대신 View 계층만 구현하기로 선택했습니다.
 
-**완벽한 타이밍**  
-당시 Google은 Angular 2.x와 함께 이전 버전과의 비호환성 및 주요 변경 사항을 발표했습니다. Angular 1에서 2로 이동하는 것은 다른 프레임워크로 이동하는 것과 같았습니다. 따라서 React가 약속한 실행 속도 향상과 함께 개발자가 시도하고 싶어하는 것이 되었습니다.
+#### 완벽한 타이밍
+당시 Google은 `Angular 2.x`를 이전 버전과의 비호환성 및 주요 변경사항과 함께 발표했습니다. 하지만 Angular 1에서 2로 이동하는 것은 다른 프레임워크로 이동하는 것과 같았습니다. 따라서 React가 약속한 실행 속도 향상과 함께 개발자가 시도하고 싶어하는 것이 되었습니다.
 
-**페이스북 지원**  
-물론 페이스북의 지원을 받는 것은 프로젝트가 성공할 경우 이익을 얻을 것입니다.
+#### 페이스북의 지원과 리소스
+React는 페이스북 앱과 웹사이트, 그리고 인스타그램에서 많이 사용되고 있습니다. 페이스북은 그들의 생산 환경에서 5만여 개가 넘는 React Component를 사용합니다. 
 
-Facebook은 현재 React에 큰 관심을 가지고 있으며 Open Source의 가치를 보고 있으며 이는 자체 프로젝트에서 React를 사용하는 모든 개발자에게 큰 장점입니다.
+또한
 
 <br>
 
@@ -153,5 +152,6 @@ TBD...
 
 :bookmark_tabs: [reactjs.org](https://reactjs.org/)  
 :bookmark_tabs: [The React Handbook](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/)  
+:bookmark_tabs: [Why You Should Use React.js For Web Development](https://www.freecodecamp.org/news/why-use-react-for-web-development/)  
 :bookmark_tabs: [Angular vs React vs Vue: Which Framework to Choose in 2021](https://www.codeinwp.com/blog/angular-vs-vue-vs-react/)
  
