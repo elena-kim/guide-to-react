@@ -104,7 +104,8 @@ React는 메모리 내에 데이터 구조 캐시를 만들고 결과 차이를 
 
 ## 개발 준비
 
-1. [node.js](https://nodejs.org/ko/download/)
+1. [node.js](https://nodejs.org/ko/download/) 설치
+
 2. 코드 에디터 (VSCode, Atom, WebStorm, Sublime 등..)
 
 (+. [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable) : `Yarn`은 조금 개선된 버전의 npm. [더 나은 속도, 더 나은 캐싱 시스템](https://www.keycdn.com/blog/npm-vs-yarn))
