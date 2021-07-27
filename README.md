@@ -102,11 +102,12 @@
   ```npm
   npx create-react-app <project name>
   ```
-
+  
 - 리액트 실행
   ```npm
   npm start
   ```
+  <img width="1440" alt="스크린샷 2021-07-27 오후 10 38 05" src="https://user-images.githubusercontent.com/74305823/127163724-a78a313c-adb8-4862-8b16-e0f8f7880176.png">
 
 - 리액트 종료:  `ctrl + C`
   ```npm
