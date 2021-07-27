@@ -120,16 +120,28 @@
 <details open>
   <summary><b>public</b>: Virtual DOM이 들어갈 빈 html이 존재 </summary>
 
-  &nbsp;&nbsp;&nbsp; - favicon.ico: 페이지 아이콘 이미지 파일  
-  &nbsp;&nbsp;&nbsp; - index.html: 가상 DOM이 들어가기 위한 빈 html  
-  &nbsp;&nbsp;&nbsp; - manifest.json: 웹 앱을 다운로드하고 네이티브 앱과 유사하게 사용자에게 제공하는 데 필요한 정보가 담긴 JSON 파일 
+  &nbsp;&nbsp;&nbsp; - **favicon.ico**: 페이지 아이콘 이미지 파일  
+  &nbsp;&nbsp;&nbsp; - **index.html**: 가상 DOM이 들어가기 위한 빈 html  
+  &nbsp;&nbsp;&nbsp; - **manifest.json**: 웹 앱을 다운로드하고 네이티브 앱과 유사하게 사용자에게 제공하는 데 필요한 정보가 담긴 JSON 파일 
 </details>
   
 <details open>
   <summary><b>src</b>: 리액트 개발이 이루어지는 메인 폴더 </summary>
 
-  &nbsp;&nbsp;&nbsp; - index.js  
-  &nbsp;&nbsp;&nbsp; - App.js
+  &nbsp;&nbsp;&nbsp; - **index.js**  
+  ```javascript
+  import React from 'react';
+  import ReactDOM from 'react-dom';
+  import './index.css';
+  import App from './App';
+  import registerServiceWorker from './registerServiceWorker';
+  
+  ReactDOM.render(<App />, document.getElementById('root'));
+  registerServiceWorker();
+  ```
+  `App.js`에서 생성된 리액트 코드를 `index.js`에서 불러온 후, public에 있는 `index.html`의 id가 root인 곳에 넣는 코드입니다.
+  
+  &nbsp;&nbsp;&nbsp; - **App.js**
 </details>
 
 <br>
