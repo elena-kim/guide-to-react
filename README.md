@@ -98,25 +98,20 @@
 <br>
 
 ## 명령어
-리액트 프로젝트 생성
-```npm
-npx create-react-app <project name>
-```
+- 프로젝트 생성
+  ```npm
+  npx create-react-app <project name>
+  ```
 
-라우터 규칙을 위한 npm 설치
-```npm
-npm i react-router-dom
-```
+- 리액트 실행
+  ```npm
+  npm start
+  ```
 
-리액트 시작
-```npm
-npm start
-```
-
-리액트 종료:  `ctrl + C`
-```npm
->> 일괄 작업을 끝내시겠습니까 (Y/N)?
-```
+- 리액트 종료:  `ctrl + C`
+  ```npm
+  >> 일괄 작업을 끝내시겠습니까 (Y/N)?
+  ```
 <br>
   
 ## CRA 구조
