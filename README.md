@@ -139,9 +139,35 @@
   ReactDOM.render(<App />, document.getElementById('root'));
   registerServiceWorker();
   ```
-  `App.js`에서 생성된 리액트 코드를 `index.js`에서 불러온 후, public에 있는 `index.html`의 id가 root인 곳에 넣는 코드입니다.
   
   &nbsp;&nbsp;&nbsp; - **App.js**
+  ```javascript
+  import logo from './logo.svg';
+  import './App.css';
+
+  function App() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </header>
+      </div>
+    );
+  }
+
+  export default App;
+  ```
 </details>
 
 <br>
