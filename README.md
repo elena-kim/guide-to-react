@@ -202,7 +202,32 @@
     </tbody>
   </table>
 </div>
+<br>
 
+- **Props**: Props는 Properties의 줄임말로 React 컴포넌트에 전달되는 인수입니다. 컴포넌트는 상속하는 부모 컴포넌트로부터 props를 받고 이 props는 상속받은 컴포넌트 내에서 수정이 불가능합니다. 리액트에서는 **부모 > 자식의 일방향성 상속**이라는 특징을 가지기 때문입니다.   
+
+  ```javascript
+  // 'brand' 속성을 'Garage' 컴포넌트에서 'Car' 컴포넌트로 전달하는 예제입니다:
+
+  class Car extends React.Component {
+    render() {
+      return <h2>I am a {this.props.brand}!</h2>;
+    }
+  }
+
+  class Garage extends React.Component {
+    render() {
+      return (
+        <div>
+        <h1>Who lives in my garage?</h1>
+        <Car brand="Ford" />
+        </div>
+      );
+    }
+  }
+
+  ReactDOM.render(<Garage />, document.getElementById('root'));
+  ```
 <br>
 
 ## Life Cycle
