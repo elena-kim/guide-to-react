@@ -264,8 +264,13 @@
 <br>
 
 ## Life Cycle
-![image](https://user-images.githubusercontent.com/74305823/126578543-9bee3b64-5ee3-417c-9e26-bdba1abfed03.png)
-[**react-lifecycle-methods-diagram**](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
+<div align=right>
+  <img src="https://user-images.githubusercontent.com/74305823/126578543-9bee3b64-5ee3-417c-9e26-bdba1abfed03.png"/>
+  <a href="https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/">
+    <b>👉 react-lifecycle-methods-diagram</b>
+  </a>
+</div>
 
 TBD...
 
