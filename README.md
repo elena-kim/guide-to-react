@@ -123,7 +123,7 @@
 
   &nbsp;&nbsp;&nbsp; - **favicon.ico**: 페이지 아이콘 이미지 파일  
   &nbsp;&nbsp;&nbsp; - **index.html**: 가상 DOM이 들어가기 위한 빈 html  
-  &nbsp;&nbsp;&nbsp; - **manifest.json**: 웹 앱을 다운로드하고 네이티브 앱과 유사하게 사용자에게 제공하는 데 필요한 정보가 담긴 JSON 파일로, 웹 애플리케이션에 대한 정보를 제공 
+  &nbsp;&nbsp;&nbsp; - **manifest.json**: 웹 앱을 다운로드하고 네이티브 앱과 유사하게 제공하기 위해 필요한 정보가 담긴 JSON 파일 
 </details>
   
 <details open>
