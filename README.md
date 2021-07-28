@@ -241,6 +241,7 @@ TBD...
 ### References
 
 :bookmark_tabs: [reactjs.org](https://reactjs.org/)  
+:bookmark_tabs: [React Tutorial](https://www.w3schools.com/react/default.asp)   
 :bookmark_tabs: [Web app manifests](https://developer.mozilla.org/en-US/docs/Web/Manifest)  
 :bookmark_tabs: [The React Handbook](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/)  
 :bookmark_tabs: [Why You Should Use React.js For Web Development](https://www.freecodecamp.org/news/why-use-react-for-web-development/)  
