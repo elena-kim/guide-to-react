@@ -283,7 +283,7 @@
 - componentDidUpdate: 컴포넌트가 업데이트 되었을 때 수행되는 메서드로, `prevProps`와 `prevState` 인자를 받음
 
 ### `Unmounting`
-- componentWillUnMount: 컴포넌트가 사라질 때 수행
+- componentWillUnmount: 컴포넌트가 사라질 때 수행
 
 <br />
 
