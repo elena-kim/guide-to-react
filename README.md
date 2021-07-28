@@ -174,6 +174,7 @@
 <br>
 
 ## State와 Props
+
 <div align=center> 
   <table>
     <thead>
@@ -228,6 +229,38 @@
 
   ReactDOM.render(<Garage />, document.getElementById('root'));
   ```
+  
+- **State**: State는 컴포넌트의 상태를 나타내며, 컴포넌트 내부에서 선언되기 때문에 수정이 가능합니다. state는 외부에 공개하지 않고, 컴포넌트가 스스로 관리합니다. state는 컴포넌트에 속하는 속성값을 저장하는 객체이며, state 객체가 변경되면 컴포넌트도 다시 렌더링됩니다.
+
+  ```javascript
+  // button을 클릭하면 state인 'hello'의 데이터가 'hello!'에서 'bye!'로 바뀌는 예제입니다:
+  
+  import React, { Component } from 'react';
+
+  class App extends Component {
+    state = {
+      hello: 'hello!'
+    };
+
+    handleChange = () => {
+      this.setState({
+        hello: 'bye!'
+      });
+    };
+
+    render() {
+      return (
+        <div className="App">
+          <div>{this.state.hello}</div>
+          <button onClick={this.handleChange}>Click Me!</button>
+        </div>
+      );
+    }
+  }
+
+  export default App;
+  ```
+  
 <br>
 
 ## Life Cycle
