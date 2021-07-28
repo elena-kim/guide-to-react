@@ -174,7 +174,34 @@
 <br>
 
 ## State와 Props
-TBD...
+<div align=center> 
+  <table>
+    <thead>
+      <tr>
+        <th>Props</th>
+        <th>State</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align=center>
+          props는 읽기 전용(read-only)이다
+        </td>
+        <td align=center>
+          state는 비동기로 변경될 수 있다
+        </td>
+      </tr>
+      <tr>
+        <td align=center>
+          props는 수정할 수 없다
+        </td>
+        <td align=center>
+          state는 this.setState로 수정할 수 있다
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <br>
 
