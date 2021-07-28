@@ -287,7 +287,9 @@
 
 <br />
 
-### References
+***
+
+## References
 
 :bookmark_tabs: [reactjs.org](https://reactjs.org/)  
 :bookmark_tabs: [React Tutorial](https://www.w3schools.com/react/default.asp)   
