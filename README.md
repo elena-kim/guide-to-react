@@ -273,7 +273,17 @@
   </a>
 </div>
 
-TBD...
+### `Mounting`
+- constructor: 클래스의 기본 특성에 맞게 생성자가 먼저 실행됨
+- render: 렌더링을 위해 작성해 둔 JSX를 리턴하는 메서드 작동
+- componentDidMount: 리액트 코드가 HTML로 변환되어 화면에 나타남
+
+### `Updating`
+- render: 보여주어야 하는 데이터가 업데이트 되면 다시 render 수행
+- componentDidUpdate: 컴포넌트가 업데이트 되었을 때 수행되는 메서드로, `prevProps`와 `prevState` 인자를 받음
+
+### `Unmounting`
+- componentWillUnMount: 컴포넌트가 사라질 때 수행
 
 <br />
 
