@@ -284,6 +284,9 @@
 
 ### `Unmounting`
 - componentWillUnmount: 컴포넌트가 사라질 때 수행
+<br>
+
+> [Life Cycle 실습 예제](https://codesandbox.io/embed/znr665pvy4?fontsize=14)
 
 <br />
 
