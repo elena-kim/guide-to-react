@@ -325,6 +325,21 @@ npm install --save-dev gh-pages
 <img width="477" alt="2  package-json" src="https://user-images.githubusercontent.com/74305823/128014148-62c5b30e-30d5-40ec-a6d3-bee5131a81eb.png">
 
 #### 5. `npm run deploy` 명령을 통해 분기가 저장소에 게시되는 것을 확인합니다.
+##### ✅ 정상적으로 게시되었다면 아래와 같이 표시됩니다.
+```
+> deploy-test@0.1.0 deploy /Users/yejin/react/deploy-test
+> gh-pages -b gh-deploy -d build
+
+Published
+```
+
+##### ❎ 아래와 같은 오류가 나타날 수도 있습니다.
+```
+Failed to get remote.origin.url (task must either be run in a git repository with a configured origin remote or must be configured with the "repo" option).
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+...
+```
 
 <br />
 
