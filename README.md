@@ -347,6 +347,34 @@ Published
   
 <img width="1440" alt="4  branch" src="https://user-images.githubusercontent.com/74305823/128021164-1f594083-bf6b-4959-be05-9c769083be8e.png">
 
+#### 7. 앞서 `package.json`파일에 추가했던 URL로 접속합니다.
+<img width="1440" alt="5  success" src="https://user-images.githubusercontent.com/74305823/128021837-9eeeaf8f-3249-4ba8-9dac-2c022064d003.png">
+
+<br>
+
+### _변경사항을 배포할 때는?_
+`App.js` 파일을 아래와 같이 변경해보겠습니다.
+```javascript
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          My First React!!
+        </p>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+
+`npm run deploy` 명령을 실행하면 잠시 후 아래와 같이 업데이트 됩니다.
+
 
 <br />
 
