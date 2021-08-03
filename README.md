@@ -297,10 +297,10 @@
 
 #### 2. React App을 생성합니다.
 ```npm
-npx create-react-app deploy-test
+npx create-react-app react-sample
 ```
 
-#### 3. `gh-pages` npm 패키지를 설치합니다.
+#### 3. App 위치로 이동 후 `gh-pages` npm 패키지를 설치합니다.
 ```npm
 npm install --save-dev gh-pages
 ```
@@ -333,12 +333,13 @@ npm install --save-dev gh-pages
 Published
 ```
 
-##### ❎ 아래와 같은 오류가 나타날 수도 있습니다.
+##### ❗ 사진과 같은 오류가 나타날 수도 있습니다.
+<img width="714" alt="3  deploy-error" src="https://user-images.githubusercontent.com/74305823/128019039-c92c5f29-8cf2-4cc8-bce9-c31eb8bf1410.png">
+
+이때는 아래 명령을 통해 해결할 수 있습니다.
 ```
-Failed to get remote.origin.url (task must either be run in a git repository with a configured origin remote or must be configured with the "repo" option).
-npm ERR! code ELIFECYCLE
-npm ERR! errno 1
-...
+> git remote add origin <url>  
+> npm run deploy
 ```
 
 <br />
