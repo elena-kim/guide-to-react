@@ -372,8 +372,11 @@ function App() {
 }
 
 export default App;
+```
 
 `npm run deploy` 명령을 실행하면 잠시 후 아래와 같이 업데이트 됩니다.
+
+<img width="1440" alt="6  update" src="https://user-images.githubusercontent.com/74305823/128022860-3ab12a3c-a71a-40e2-93bc-1afe8e592dec.png">
 
 
 <br />
