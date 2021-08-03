@@ -338,9 +338,10 @@ Published
 
 이때는 아래 명령을 통해 해결할 수 있습니다.
 ```
-> git remote add origin <url>  
+> git remote add origin <GITHUB_REPOSITORY_URL>  
 > npm run deploy
 ```
+> `<GITHUB_REPOSITORY_URL>` 을 앞서 생성한 Repository의 URL로 대체합니다.
 
 #### 6. GitHub 설정에서 branch를 변경해줍니다.
 > Settings \> Pages \> GitHub Pages에서 Source 항목의 Branch를 `gh-deploy`로 변경한 후 저장합니다.
