@@ -292,18 +292,39 @@
 <br />
 
 ## GitHub에 앱 배포하기
-1. [`GitHub Pages`](https://pages.github.com/)를 사용하기 위해 Repository를 생성합니다.  
+#### 1. [`GitHub Pages`](https://pages.github.com/)를 사용하기 위해 Repository를 생성합니다.  
 <img width="1440" alt="1  create-repo" src="https://user-images.githubusercontent.com/74305823/128011850-6d99ddba-d6d3-48ac-99da-84a96e43a519.png">
 
-2. React App을 생성합니다.
+#### 2. React App을 생성합니다.
 ```npm
 npx create-react-app deploy-test
 ```
 
-3. `gh-pages` npm 패키지를 설치합니다.
+#### 3. `gh-pages` npm 패키지를 설치합니다.
 ```npm
 npm install --save-dev gh-pages
 ```
+
+#### 4. `package.json` 파일에 아래 내용을 추가합니다.
+```json
+{
+  "homepage": "https://<GITHUB_USER>.github.io/<GITHUB_REPOSITORY_NAME>"
+}
+```
+> `<GITHUB_USER>` 및 `<GITHUB_REPOSITORY_NAME>` 을 올바른 값으로 대체해야 합니다.
+
+```json
+{
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -b gh-deploy -d build",
+}
+```
+> - predeploy : 애플리케이션 빌드를 생성하기 위해 배포 전에 실행되는 npm 스크립트  
+> - deploy : 빌드 디렉토리의 소스파일을 생성하고 gh-deploy 브랜치로 푸시하는 npm 스크립트  
+
+<img width="477" alt="2  package-json" src="https://user-images.githubusercontent.com/74305823/128014148-62c5b30e-30d5-40ec-a6d3-bee5131a81eb.png">
+
+#### 5. `npm run deploy` 명령을 통해 분기가 저장소에 게시되는 것을 확인합니다.
 
 <br />
 
