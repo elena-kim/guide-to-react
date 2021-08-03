@@ -342,6 +342,12 @@ Published
 > npm run deploy
 ```
 
+#### 6. GitHub 설정에서 branch를 변경해줍니다.
+> Settings \> Pages \> GitHub Pages에서 Source 항목의 Branch를 `gh-deploy`로 변경한 후 저장합니다.
+  
+<img width="1440" alt="4  branch" src="https://user-images.githubusercontent.com/74305823/128021164-1f594083-bf6b-4959-be05-9c769083be8e.png">
+
+
 <br />
 
 ***
