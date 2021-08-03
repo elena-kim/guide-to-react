@@ -6,7 +6,7 @@
 - [CRA 구조](#cra-구조)
 - [State와 Props](#state와-props)
 - [Life Cycle](#life-cycle)
-- [Github에 앱 배포하기](#github에-앱-배포하기)
+- [GitHub에 앱 배포하기](#github에-앱-배포하기)
 
 <br>
 
@@ -291,8 +291,19 @@
 
 <br />
 
-## Github에 앱 배포하기
-TBD..
+## GitHub에 앱 배포하기
+1. [`GitHub Pages`](https://pages.github.com/)를 사용하기 위해 Repository를 생성합니다.  
+<img width="1440" alt="1  create-repo" src="https://user-images.githubusercontent.com/74305823/128011850-6d99ddba-d6d3-48ac-99da-84a96e43a519.png">
+
+2. React App을 생성합니다.
+```npm
+npx create-react-app deploy-test
+```
+
+3. `gh-pages` npm 패키지를 설치합니다.
+```npm
+npm install --save-dev gh-pages
+```
 
 <br />
 
