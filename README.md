@@ -342,7 +342,7 @@ Published
 
 이때는 아래 명령을 통해 해결할 수 있습니다.
 ```
-> git remote add origin <GITHUB_REPOSITORY_URL>  
+> git remote add origin <GITHUB_REPOSITORY_URL>.git  
 > npm run deploy
 ```
 > `<GITHUB_REPOSITORY_URL>` 을 앞서 생성한 Repository의 URL로 대체합니다.
