@@ -91,7 +91,7 @@
 ## 개발 준비
 
 - node.js [설치](https://nodejs.org/ko/download/)
-- 코드 에디터 _(VSCode, Atom, WebStorm, Sublime 등..)_
+- 코드 에디터 (VSCode, Atom, WebStorm, Sublime 등..)
 - [선택사항] Yarn [설치](https://classic.yarnpkg.com/en/docs/install#windows-stable) &nbsp; `Yarn은 조금 개선된 버전의 npm입니다.`  
   <br>  
   > [npm vs Yarn - 어떤 패키지 관리자를 써야 할까?](https://www.keycdn.com/blog/npm-vs-yarn) 
