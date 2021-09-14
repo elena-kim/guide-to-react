@@ -48,8 +48,8 @@
     </tr>
     <tr>
       <td align="center"><a href="https://angular.io/"/>angular.io</td>
-      <td align="center"><a href="https://reactjs.org/"/>reactjs.org</td>
       <td align="center"><a href="https://vuejs.org/"/>vuejs.org</td>
+      <td align="center"><a href="https://reactjs.org/"/>reactjs.org</td>
     </tr>
     <tr>
       <td align="center">Google 개발 (2010년)</td>
