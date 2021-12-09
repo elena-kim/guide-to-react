@@ -385,6 +385,15 @@ export default App;
 
 <img width="1440" alt="6  update" src="https://user-images.githubusercontent.com/74305823/128022860-3ab12a3c-a71a-40e2-93bc-1afe8e592dec.png">
 
+<br>
+
+### ❗ 에러
+> 배포 관련해서 발생했던 에러에 대한 내용입니다.
+
+#### 1. `npm start`입력 시 `react-scripts: command not found` 에러 메시지 출력
+  - react-scripts 라이브러리를 현재 디렉토리에서 실행시킬 수 없을 때 발생합니다.
+  - `npm install` 명령어 입력을 통해 해결할 수 있습니다.
+
 
 <br />
 
