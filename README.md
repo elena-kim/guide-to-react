@@ -391,14 +391,31 @@ export default App;
 > 배포 관련해서 발생했던 에러에 대한 내용입니다.
 
 #### 1. `npm start`입력 시 `react-scripts: command not found` 에러 메시지 출력
-  - react-scripts 라이브러리를 현재 디렉토리에서 실행시킬 수 없을 때 발생합니다.
-  - `npm install` 명령어 입력을 통해 해결할 수 있습니다.
+react-scripts 라이브러리를 현재 디렉토리에서 실행시킬 수 없을 때 발생하며, `npm install` 명령어 입력을 통해 해결할 수 있습니다.
 
 #### 2. 커스텀 도메인 적용 후 npm run deploy 명령 실행 시 도메인이 초기화되는 문제
-  -
-  
+gh-pages는 기본적으로 `[USERNAME].github.io` 형식의 도메인을 제공하는데, 설정 페이지에서 도메인을 직접 변경할 수 있습니다.
+
+<img width="602" alt="스크린샷 2021-12-09 오후 10 34 02" src="https://user-images.githubusercontent.com/74305823/145406552-6b70f827-6d60-47c7-945c-c54a15bc6603.png">
+
+하지만 `npm run deploy` 명령 실행 시 도메인이 자꾸 초기화되는 문제가 발생하는데, 이때는 CNAME 이라는 파일을 추가해줘야 합니다. 
+CNAME 파일은 `public` 하위에 위치하며, 본인이 적용할 도메인을 내용에 적어줍니다.
+
+<img width="1023" alt="스크린샷 2021-12-09 오후 10 46 34" src="https://user-images.githubusercontent.com/74305823/145407943-34f87fb8-55cc-4881-87f8-ea109e468d92.png">
+
+
 #### 3. 커스텀 도메인 적용 후 리다이렉션 시 404 not found 뜨는 문제
-  -
+`package.json` 파일의 build step을 아래와 같이 수정합니다. 
+
+<img width="921" alt="스크린샷 2021-12-09 오후 10 52 09" src="https://user-images.githubusercontent.com/74305823/145408869-9539b8cd-2a4e-449e-969e-c25ddab99af3.png">
+
+```javascript
+// windows
+"build": "react-scripts build && copy build\\index.html build\\404.html"
+
+// macOS
+"build": "react-scripts build && cp build/index.html build/404.html"
+```
   
 <br />
 
