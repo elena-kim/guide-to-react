@@ -103,6 +103,7 @@
   ```npm
   npx create-react-app <project name>
   ```
+  npx와 npm 차이는? TBD...
   
 - 리액트 실행
   ```npm
