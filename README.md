@@ -424,12 +424,12 @@ CNAME 파일은 `public` 하위에 위치하며, 본인이 적용할 도메인�
 
 ## Reference
 
-:bookmark_tabs: [reactjs.org](https://reactjs.org/)  
-:bookmark_tabs: [React Tutorial](https://www.w3schools.com/react/default.asp)   
-:bookmark_tabs: [Web app manifests](https://developer.mozilla.org/en-US/docs/Web/Manifest)  
-:bookmark_tabs: [The React Handbook](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/)  
-:bookmark_tabs: [Why You Should Use React.js For Web Development](https://www.freecodecamp.org/news/why-use-react-for-web-development/)  
-:bookmark_tabs: [Angular vs React vs Vue: Which Framework to Choose in 2021](https://www.codeinwp.com/blog/angular-vs-vue-vs-react/)  
-:bookmark_tabs: [How to deploy your React App to GitHub Pages](https://brayanarrieta.hashnode.dev/how-to-deploy-your-react-app-to-github-pages)  
-:bookmark_tabs: [Material-UI](https://material-ui.com)
+📑 [reactjs.org](https://reactjs.org/)  
+📑 [React Tutorial](https://www.w3schools.com/react/default.asp)   
+📑 [Web app manifests](https://developer.mozilla.org/en-US/docs/Web/Manifest)  
+📑 [The React Handbook](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/)  
+📑 [Why You Should Use React.js For Web Development](https://www.freecodecamp.org/news/why-use-react-for-web-development/)  
+📑 [Angular vs React vs Vue: Which Framework to Choose in 2021](https://www.codeinwp.com/blog/angular-vs-vue-vs-react/)  
+📑 [How to deploy your React App to GitHub Pages](https://brayanarrieta.hashnode.dev/how-to-deploy-your-react-app-to-github-pages)  
+📑 [Material-UI](https://material-ui.com)
  
