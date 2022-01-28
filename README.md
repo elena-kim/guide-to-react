@@ -1,4 +1,4 @@
-## the-easiest-react
+## Guide to React
 
 이 레포지토리는 React에 대한 기본적인 내용과 GitHub에 앱을 배포하는 방법에 대해 기술한 리포지토리입니다. <br />
 
