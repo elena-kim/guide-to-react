@@ -6,7 +6,7 @@
  
 | Star | License | Activity |
 |:----:|:-------:|:--------:|
-| <a href="https://github.com/devncore/the-easiest-react/stargazers"><img src="https://img.shields.io/github/stars/devncore/the-easiest-react" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/the-easiest-react" alt="License"> | <a href="https://github.com/devncore/the-easiest-react/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/the-easiest-react" alt="Commits-per-month"></a> |
+| <a href="https://github.com/devncore/guide-to-react/stargazers"><img src="https://img.shields.io/github/stars/devncore/guide-to-react" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/guide-to-react" alt="License"> | <a href="https://github.com/devncore/guide-to-react/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/guide-to-react" alt="Commits-per-month"></a> |
 
 <br />
 
